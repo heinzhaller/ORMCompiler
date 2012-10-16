@@ -1,0 +1,14 @@
+# EDIT ME !!
+php_value auto_prepend_file global.inc.php
+php_value auto_append_file append.php
+
+RewriteEngine On
+RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule public/(.*) index.php?layer=public&clean_url=$1
+RewriteRule game/?(.*) index.php?layer=game&clean_url=$1
+#RewriteRule ^(.*)/(.*) index.php?layer=$1&page=$2
+#RewriteRule (.*)/(.*)/(.*) index.php?layer=$1&page=$2&params=$3 [L,QSA]
+
+ErrorDocument 404 /index.php?error=404
