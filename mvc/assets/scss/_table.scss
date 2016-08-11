@@ -1,0 +1,72 @@
+/* +++++++++++++++++++++++++++++++ TABLE +++++++++++++++++++++++++++++++ */
+
+.table
+{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	table-layout: auto;
+	margin-bottom: 15px;
+	float: left;
+	clear: both;
+
+	&.layout-fixed
+	{
+		table-layout: fixed;
+	}
+
+	thead
+	{
+		.table-header
+		{
+			padding: 7px 15px;
+			background: #ECECEC;
+			font-size: 12px;
+			text-align: left;
+			border-left: 1px solid white;
+			font-weight: normal;
+			float: none;
+			white-space: nowrap;
+		}
+
+		.table-header:first-child
+		{
+			border: none;
+		}
+	}
+
+	tbody
+	{
+		tr
+		{
+
+			th:first-child
+			{
+				border: none;
+			}
+
+			td
+			{
+				padding: 10px 0 10px 15px;
+				vertical-align: top;
+				float: none;
+
+				.grey
+				{
+					color: #555 !important;
+				}
+
+				.row
+				{
+					/*margin: 0 !important;*/
+				}
+			}
+		}
+	}
+	
+	
+	> .row > [class*="col-"]
+	{
+		margin-bottom: 0;
+	}
+}

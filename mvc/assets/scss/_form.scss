@@ -1,0 +1,393 @@
+$spacing: 20px;
+$height: 30px;
+
+/* +++++++++++++++++++++++++++++++ FORM +++++++++++++++++++++++++++++++ */
+
+input
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: 0;
+}
+
+.input-group
+{
+	position: relative;
+	font-size: 0;
+	white-space: nowrap;
+	display: table;
+	border-collapse: separate;
+	margin: 0 0 $spacing 0;
+	height: $height;
+	width: 100%;
+	
+	.form-control
+	{
+		position: relative;
+		z-index: 2;
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+		padding: 0 $spacing 0 ($spacing + 30);
+		display: table-cell;
+		border: 1px solid #ccc;
+		font-size: 14px;
+		background: white;
+	}
+
+}
+
+.form-control,
+.input-group-btn
+{
+	height: $height;
+	line-height: $height;
+	
+	width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: table-cell;
+}
+
+.input-group-addon,
+.input-group-btn
+{
+	display: table-cell;
+}
+
+.input-group-addon 
+{
+    color: #b3b3b3;
+    font-size: 14px;
+    background: #fff;
+	
+	padding: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: $height;
+	height: $height;
+    color: #b3b3b3;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+	
+	width: 40px; 
+	display: block; 
+	position: absolute;
+    left: 0;
+    top: 0;
+	z-index: 3;
+}
+
+.form-control
+{
+	display: block;
+	width: 100%;
+	line-height: 1.42857143;
+}
+
+textarea.form-control
+{
+	height: auto;
+	line-height: 148%;
+	resize: vertical;
+	padding: 0 10px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.form-group
+{
+	display: block;
+	width: 100%;
+	line-height: 1.42857143;
+	margin-top: 15px;
+
+	&:first-child
+	{
+		margin-top: 0;
+	}
+
+	input[type='text']
+	{
+		padding: 0 10px;
+	}
+}
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group
+{
+	z-index: 2;
+	margin-left: -1px;
+}
+
+.input-group-btn
+{
+	width: 1%;
+	vertical-align: middle;
+
+	position: relative;
+	font-size: 0;
+	white-space: nowrap;
+
+	&.hover
+	{
+		&:hover
+		{
+			i
+			{
+				color: #dd2200 !important;
+			}
+		}
+	}
+}
+
+.input-group:after
+{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.input-group-amount
+{
+	margin: 10px 0;
+
+	height: 22px;
+	line-height: 22px;
+
+	.amount
+	{
+		color: white;
+		background: #A2A2A2;
+		padding: 0 3px;
+		cursor: pointer;
+		line-height: 20px;
+		height: 20px;
+		margin: 1px 0;
+		font-size: 12px;
+
+		&:hover
+		{
+			background: #000;
+			color: white;
+		}
+	}
+
+	input[type= 'text']
+	{
+		border: 1px solid #ddd;
+		font-size: 12px;
+		padding: 0 10px;
+		margin-right: 5px;
+		height: 22px;
+		line-height: 22px;
+	}
+}
+
+textarea
+{
+	border: 1px solid #ddd;
+	font-size: 12px;
+	padding: 0 10px;
+	line-height: 18px;
+	display: inline-block;
+	margin-right: 5px;
+	font-family: 'Roboto', Arial;
+	overflow: hidden;
+	resize: vertical;
+	width: 100%;
+	vertical-align: top;
+
+	&.area-sm
+	{
+		height: 20px;
+		padding: 0 10px;
+	}
+
+	&.area-md
+	{
+		height: 25px;
+		padding: 2.5px 10px;
+	}
+
+	&.area-lg
+	{
+		height: 30px;
+		padding: 5px 10px;
+	}
+}
+
+/* checkbox */
+
+.checkbox-list
+{
+	height: 145px;
+	overflow: auto;
+	padding: 0;
+	margin: 20px 0;
+
+	&::-webkit-scrollbar
+	{
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-track
+	{
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-track-piece:vertical
+	{
+		background: #FFFFFF;
+	}
+
+	&::-webkit-scrollbar-corner
+	{
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb
+	{
+		background: #777;
+	}
+
+	.checkbox-group
+	{
+		margin: 0 0 10px 0 !important;
+		position: relative;
+		line-height: 21px;
+	}
+}
+
+label
+{
+	font-size: 12px;
+	font-family: 'Roboto', Arial;
+}
+
+input
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: 0;
+	font-size: 1em;
+	width: 100%;
+}
+
+/* graceful degradation for ie8 */
+input[type=checkbox],
+input[type=radio]
+{
+	width: auto;
+	float: left;
+	margin-right: .75em;
+	background: transparent;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	border: none;
+}
+
+input[type=checkbox]:checked,
+input[type=checkbox]:not(:checked),
+input[type=radio]:checked,
+input[type=radio]:not(:checked)
+{
+	background: transparent;
+	position: relative;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=checkbox] + label,
+input[type=radio] + label
+{
+	cursor: pointer;
+	padding: 0 5px 0 35px;
+}
+
+input[type=radio] + label
+{
+	font-size: 14px;
+	font-family: 'Roboto Condensed', Arial;
+	font-weight: bold;
+}
+
+input[type=checkbox]:checked + label::before,
+input[type=checkbox]:not(:checked) + label::before,
+input[type=radio]:checked + label::before,
+input[type=radio]:not(:checked) + label::before
+{
+	content: ' ';
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background-color: white;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+input[type=radio]:checked + label::before,
+input[type=radio]:not(:checked) + label::before
+{
+	border-radius: 100%;
+}
+
+input[type=radio]:checked + label.sm::before,
+input[type=radio]:not(:checked) + label.sm::before
+{
+	width: 15px;
+	height: 15px;
+}
+input[type=radio]:checked + label.md::before,
+input[type=radio]:not(:checked) + label.md::before
+{
+	width: 17px;
+	height: 17px;
+}
+input[type=radio]:checked + label.lg::before,
+input[type=radio]:not(:checked) + label.lg::before
+{
+	width: 19px;
+	height: 19px;
+}
+
+input[type=radio].border:checked + label::before,
+input[type=radio].border:not(:checked) + label::before
+{
+	border: 1px solid #ddd;
+}
+
+input[type=checkbox]:checked  + label::before,
+input[type=radio]:checked  + label::before
+{
+	background: url("../../img/product-result/check.png");
+	background-size: contain;
+}
+
+.radio-group
+{
+	margin-bottom: 1px;
+}
+
+@media all and (min-width: 1025px)
+{
+	.checkbox-group
+	{
+		&:hover label::before {
+			background-image: url("../../img/product-result/check_hover.png");
+		}
+
+		input[type='checkbox']:checked:hover + label::before
+		{
+			background-image: url("../../img/product-result/check.png");
+		}
+	}
+}

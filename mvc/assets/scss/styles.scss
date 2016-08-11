@@ -1,0 +1,745 @@
+$font-stack-normal: 'Roboto', Arial, sans-serif;
+$font-stack-header: 'Open Sans', Arial, sans-serif;
+
+$primary-color-bg-header: #111;
+$primary-color-bg-footer: #272727;
+$primary-color-bg-copyright: #000;
+$primary-color-bg: #333;
+$primary-color: #F19C05;
+$primary-color-border: #e4e9f0;
+
+$color-red: #DD2200;
+$color-green: #54B000;
+$color-black: #000;
+$color-grey: #AAA;
+
+@mixin transition($duration)
+{
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+body
+{
+	font-family: $font-stack-normal;
+	font-size: 13px;
+	line-height: 148%;
+
+	color: $primary-color-bg;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: $font-stack-header;
+	font-weight: normal;
+}
+h1
+{
+	font-size: 30px;
+	line-height: 125%;
+}
+h2
+{
+	font-size: 25px;
+	line-height: 130%;
+}
+h3
+{
+	font-size: 18px;
+	line-height: 130%;
+	color: $primary-color-bg-header;
+	&.margin
+	{
+		margin-bottom: 10px;
+	}
+
+	&.underline
+	{
+		padding-bottom: 10px;
+		border-bottom: 1px solid $primary-color-border;
+		margin-bottom: 10px;
+	}
+}
+h4
+{
+	font-size: 15px;
+	line-height: 130%;
+	color: #fff;
+}
+h5
+{
+
+}
+
+h1.underline,
+h2.underline
+{
+	padding-bottom: 25px;
+	border-bottom: 1px solid $primary-color-border;
+	margin-bottom: 25px;
+}
+
+a
+{
+	@include transition(150ms);
+
+	color: #000000;
+}
+a[href]:hover
+{
+	color: $primary-color !important;
+}
+
+p
+{
+	margin: 10px 0 0 0;
+}
+
+.small
+{
+	font-size: 10px;
+}
+
+.btn
+{
+	display: block;
+	cursor: pointer;
+	line-height: 30px;
+	height: 30px;
+	opacity: 0.75; 
+	
+	&:hover
+	{
+		opacity: 1;
+	}
+}
+
+.btn-default
+{
+	background: $primary-color;
+	padding: 0 20px;
+	font-size: 15px;
+	font-weight: 200;
+	color: #ffffff;
+}
+.btn-grey
+{
+	background: #AAAAAA;
+	padding: 0 10px;
+	font-family: 'roboto condensed';
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+hr
+{
+	border-bottom: 1px solid $primary-color-border;
+	margin: 10px 0;
+}
+
+[class^="icon-"], [class*=" icon-"]
+{
+	vertical-align: middle;
+}
+.icon-x2[class^="icon-"], .icon-x2[class*=" icon-"]
+{
+	font-size: 20px;
+}
+
+.icon-x3[class^="icon-"], .icon-x3[class*=" icon-"]
+{
+	font-size: 30px;
+}
+
+.icon-x4[class^="icon-"], .icon-x4[class*=" icon-"]
+{
+	font-size: 40px;
+}
+
+.border
+{
+	border: 1px solid $primary-color-border;
+}
+.border-bottom
+{
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.15);
+}
+.border-top
+{
+	border-top: 1px solid $primary-color-border;
+}
+.border-left
+{
+	border-left: 1px solid $primary-color-border;
+}
+
+.tip
+{
+	color: $color-grey;
+}
+
+.list
+{
+	line-height: 30px;
+}
+
+.goto
+{
+	line-height: 30px;
+}
+
+.link:after
+{
+	content: '\e905';
+	font-family: 'icomoon_fega_icons' !important;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #DD2200;
+	float: right;
+}
+
+.box.link:after
+{
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	right: 0;
+}
+
+.btn.link:after
+{
+	content: '\e905';
+	font-family: 'icomoon_fega_icons' !important;
+	font-size: 12px;
+	float: right;
+	margin-left: 10px;
+	color: white;
+}
+
+.btn.config:after
+{
+	content: "\e908";
+	font-family: 'icomoon_fega_icons' !important;
+	font-size: 17px;
+	float: right;
+	margin-left: 45px;
+	color: white;
+}
+
+.white
+{
+	color: #ffffff !important;
+}
+.black
+{
+	color: $color-black !important;
+}
+.green
+{
+	color: $color-green !important;
+}
+.red
+{
+	color: $color-red !important;
+}
+.orange,
+.active
+{
+	color: $primary-color !important;
+}
+.grey
+{
+	color: $color-grey !important;
+}
+.bg-black
+{
+	background: $primary-color-bg-header !important;
+}
+.bg-orange
+{
+	background: $primary-color !important;
+}
+
+.bar
+{
+	background: url("http://www.onlineboxingmanager.de/images/custom/public/bg_bar_orange.png") left bottom repeat-x #111;
+	height: 30px;
+	line-height: 30px;
+}
+
+.container,
+.box
+{
+
+	&:after
+	{
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+/* +++++++++++++++++++++++++++++++ LAYOUT +++++++++++++++++++++++++++++++ */
+
+.website
+{
+	position: relative;
+	min-width: 312px;
+	overflow: hidden;
+
+	.website-header
+	{
+		position: relative;
+		height: 170px;
+
+		color: #fff; 
+		background: url("/assets/images/custom/public/header_bg.png") center top no-repeat $primary-color-bg-header;
+
+		.website-inner
+		{
+			
+			height: 140px; 
+		}
+
+		.website-logo
+		{
+			width: auto;
+			height: auto;
+		}
+		
+		.bar
+		{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		
+		.navigation
+		{
+		}
+		
+		.infobar
+		{
+		}
+
+		.logo-boxer
+		{
+			position: absolute;
+			right: 12px;
+			top: 0;
+		}
+		
+	}
+
+	.website-breadcrumbs
+	{
+	    overflow: hidden;
+		padding: 20px 0; 
+		line-height: 60px;
+		border-bottom: solid 1px $primary-color-border;
+		background: #FDFDFD;
+	
+		h1
+		{
+			color: #666;
+			font-size: 22px;
+			line-height: 60px; 
+		}
+		
+		.breadcrumb > li + li:before 
+		{
+			padding: 0 5px;
+			color: #ccc;
+			content: "/\00a0";
+		}
+		
+		
+	}
+	
+	.website-stage
+	{
+		position: relative;
+		padding: 0 0 30px 0;
+	}
+
+	.website-content-extra
+	{
+		position: relative;
+		padding: 55px 0;
+	}
+
+	.website-content
+	{
+		position: relative;
+		padding: 55px 0 95px 0;
+	}
+
+	.website-footer
+	{
+		position: relative;
+		padding: 35px 0 45px 0;
+
+		background: $primary-color-bg-footer;
+		background-image: -webkit-linear-gradient(top, #151515, #111111);
+		color: #777;
+		border-bottom: 1px dotted #222;
+
+		
+		.headline
+		{
+			height: 32px;
+			border-bottom: 1px dotted #444;
+			margin-bottom: 20px;
+		}
+
+		h3
+		{
+			color: $primary-color;
+			/*color: #ccc;*/
+			font-weight: 200;
+			
+			display: inline-block;
+			padding-right: 10px;
+			border-bottom: 1px solid $primary-color;
+			line-height: 22px;
+			padding-bottom: 8px;
+			height: 32px;
+			font-size: 15px;
+		}
+
+		a
+		{
+			color: #777;
+		}
+	}
+
+	.website-copyright
+	{
+		position: relative;
+		height: 40px;
+		line-height: 40px;
+		background: $primary-color-bg-copyright;
+		color: #777;
+		
+		.social
+		{
+			
+			a
+			{
+				color: #777;
+				i
+				{
+					font-size: 15px;
+					margin-left: 15px;
+				}
+			}
+			
+		}
+	}
+
+	.website-inner
+	{
+		position: relative;
+		margin: 0 auto;
+		padding: 0 20px; /* used for grid system */
+
+		max-width: 1600px;
+	}
+}
+
+
+/* +++++++++++++++++++++++++++++++ MODULE +++++++++++++++++++++++++++++++ */
+
+ul.links
+{
+	li
+	{
+		line-height: 30px;
+		border-top: 1px dotted $primary-color-border;
+
+		&:first-child
+		{
+			border-top: none;
+		}
+		
+		a
+		{
+			display: block;
+			
+		}
+		
+		a:before
+		{
+			content: "\f105";
+			display: block;
+			float: right;
+			line-height: 30px;
+			font-family: "FontAwesome";
+			margin-left: 10px;
+		}
+		
+	}
+}
+
+.website-footer
+{
+	ul.links li
+	{
+		border-top: 1px dotted #333;
+	}
+}
+ 
+.box
+{
+	/*background-image: -webkit-linear-gradient(top, #333333, #222222);*/
+	/*text-shadow: 1px 1px 1px black;*/
+	position: relative;
+
+	border: solid 1px #eee;
+	padding: 20px;
+	
+	min-height: 340px;
+
+	&.fixed-height
+	{
+		min-height: 385px;
+		
+		.box-content
+		{			
+			max-height: 290px;
+			
+		}
+		
+	}
+
+	.box-header
+	{
+		/*text-shadow: 1px 1px 1px black;*/
+		height: 34px;
+		border-bottom: 1px dotted rgba(241, 156, 5, 0.30);
+		border-bottom: 1px dotted #e4e9f0;
+		margin-bottom: 20px;
+
+		h2
+		{
+			line-height: 22px;
+			padding-bottom: 8px;
+			height: 35px;
+			display: inline-block;
+			padding-right: 10px;
+			border-bottom: 3px solid $primary-color;
+			font-weight: normal;
+			font-size: 22px;
+			color: #555;
+		}
+
+		[class*="icon"]
+		{
+			margin-right: 15px;
+			font-size: 25px;
+			line-height: 40px;
+			color: #888;
+			font-weight: normal;
+			vertical-align: inherit;
+			display: none;
+		}
+	}
+
+	.box-content
+	{
+		padding: 0;
+		
+		min-height: 250px;
+		min-height: 200px;
+
+		overflow: auto;
+		margin-right: -12px;
+		padding-right: 10px;
+	}
+
+	.box-footer
+	{
+		line-height: 30px;
+		height: 30px;
+		border-top: 1px solid $primary-color;
+		padding: 10px 0 0 0;
+		font-size: 13px;
+	}
+
+}
+
+.news,
+.status
+{
+	padding: 15px 0 10px 0;
+	border-top: 1px dotted #e4e9f0;
+
+	&:first-child
+	{
+		border-top: none;
+		padding-top: 5px;
+	}
+
+	b
+	{ 
+		font-weight: 200;
+		font-size: 13px;
+	}
+	
+	.date
+	{
+		line-height: 20px;
+		padding: 5px 10px;
+		opacity: 0.75;
+		text-align: center;
+		font-size: 12px;
+		margin-top: -5px;
+
+		-webkit-transition: all 150ms ease-in-out;
+		-moz-transition: all 150ms ease-in-out;
+		-ms-transition: all 150ms ease-in-out;
+		-o-transition: all 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
+	}
+
+	&:hover .date
+	{
+		opacity: 1;
+	}
+}
+
+.status
+{
+	opacity: 0.75;
+	border-top: none;
+	margin: 5px 0;
+	padding: 5px 10px !important;
+	line-height: 20px;
+
+	border-left: 3px solid #ccc;
+	
+	&:first-child
+	{
+		margin-top: 0;
+	}
+
+	&.status-completed
+	{
+		border-color: #22AA00 !important;
+	}
+	&.status-incomplete
+	{
+		border-color: #AA2200 !important;
+	}
+	&.status-disabled
+	{
+		border-color: #AA2200 !important;
+	}
+	&.status-empty
+	{
+		border-color: #AA2200 !important;
+	}
+	&.status-league
+	{
+		border-color: #AA2200 !important;
+	}
+	&.status-tournament
+	{
+		border-color: #2200AA !important;
+	}
+	&:hover
+	{
+		opacity: 1.0;
+	}
+}
+
+hr
+{
+	margin: 5px 0;
+	display: block;
+	border-width: 1px 0 0 0;
+	border-style: dotted;
+	border-color: rgba(88, 88, 88, 0.3);
+	border-color: #e4e9f0;
+}
+
+	
+.website-topscroller 
+{
+	bottom: 5px;
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+    background: #FB8B03;
+    color: #000000;
+    text-shadow: none;
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out 0s;
+    font-size: 20px;
+    text-align: center;
+	
+	&:hover
+	{
+		background: #F19C05;
+		opacity: 1;
+	}
+}
+
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.0);
+	background: #eee; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+    background: $primary-color !important;
+}
+::-webkit-scrollbar-thumb:window-inactive
+{
+	background: rgba(255,0,0,0.25);
+}
+
+.website
+{
+
+	/* Let's get this party started */
+	::-webkit-scrollbar
+	{
+		width: 3px;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb
+	{
+		background: $primary-color !important;
+	}
+	::-webkit-scrollbar-thumb:window-inactive
+	{
+		background: rgba(255,0,0,0.25);
+	}
+}

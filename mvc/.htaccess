@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# www
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^example\.com$
+#RewriteRule ^(.*) http://www.example.com/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !(\.php|robots\.txt|assets) [NC]
+RewriteRule ^(.*)/(.*)/(.*) index.php?controller=$1&action=$2&params=$3 [L,NC,QSA]
+
+RewriteCond %{REQUEST_URI} !(\.php|robots\.txt|assets) [NC]
+RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2 [L,NC,QSA]
+
+RewriteCond %{REQUEST_URI} !(\.php|robots\.txt|assets) [NC]
+RewriteRule ^(.*) index.php?controller=$1&action=index [L,NC,QSA]
+
+ErrorDocument 404 /404.html
