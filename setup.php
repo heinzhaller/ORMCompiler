@@ -2,10 +2,8 @@
 #ä
 header('Content-Type: text/html; charset=utf-8');
 ini_set('display_errors', 1);
-#define('GLOBALCONFIG_GLOBALDIR', '/var/www/mcglobal');
-#define('GLOBAL_INCLUDE_ABSTRACTIONLAYER', '/var/www/obm/global/abstractionlayer/');
 
-error_reporting(E_ALL);
+error_reporting ( E_ALL & ~E_STRICT & ~E_DEPRECATED );
 
 $myPath = $_SERVER['SCRIPT_FILENAME'];
 define('ORMCOMPILER_PATH', substr($myPath, 0, strrpos($myPath, '/')));
@@ -15,7 +13,10 @@ require_once ORMCOMPILER_PATH.'/class.ORMBase.php';
 include_once ORMCOMPILER_PATH.'/class.ORMConfig.php'; // serialize
 $save_file = ORMCOMPILER_PATH.'/config.sav';
 
-if(file_exists($save_file)){
+$myConfig = null;
+
+if(file_exists($save_file))
+{
 	$myConfig = unserialize(file_get_contents($save_file));
 }
 
@@ -366,32 +367,37 @@ input {
 <h1>ORMCompiler</h1>
 <form action="" method="post">
 <fieldset>
+	<legend>Extensions</legend>
 <?
 if( class_exists('PDO') AND in_array('mysql', PDO::getAvailableDrivers()) )
-	echo '<span style="color: green">"MySQL für PDO" ist aktiviert und kann benutzt werden!</span>';
+	echo 'PDO - <span style="color: green">"MySQL für PDO" ist aktiviert und kann benutzt werden!</span>';
 ?>
 </fieldset>
+<br />
 
-</fieldset>
 <fieldset>
 	<legend>DBConfig</legend>
-	<input type="text" name="driver" value="<?=$myConfig->getDbDriver()?>"> Driver<br>
-	<input type="text" name="charset" value="<?=$myConfig->getDbCharset()?>"> Charset<br>
-	<input type="text" name="host" value="<?=$myConfig->getDbHost()?>"> Host<br>
-	<input type="text" name="database" value="<?=$myConfig->getDbDatabase()?>"> Database<br>
-	<input type="text" name="username" value="<?=$myConfig->getDbLoginname()?>"> Loginname<br>
+	<input type="text" name="driver" value="<?=$myConfig->getDbDriver()?>"> Driver<br><br>
+	<input type="text" name="charset" value="<?=$myConfig->getDbCharset()?>"> Charset<br><br>
+	<input type="text" name="host" value="<?=$myConfig->getDbHost()?>"> Host<br><br>
+	<input type="text" name="database" value="<?=$myConfig->getDbDatabase()?>"> Database<br><br>
+	<input type="text" name="username" value="<?=$myConfig->getDbLoginname()?>"> Loginname<br><br>
 	<input type="text" name="passwort" value="<?=$myConfig->getDbPassword()?>"> Passwort<br>
 </fieldset>
+<br />
+
 <fieldset>
 	<legend>Paths</legend>
-	<input type="text" name="application" value="<?=$myConfig->getApplicationPath()?>" style="width: 500px;"> Application-Path<br>
-	<input type="text" name="abstraction" value="<?=$myConfig->getAbstractionPath()?>" style="width: 500px;"> Abstraction-Path<br>
+	<input type="text" name="application" value="<?=$myConfig->getApplicationPath()?>" style="width: 500px;"> Application-Path<br><br>
+	<input type="text" name="abstraction" value="<?=$myConfig->getAbstractionPath()?>" style="width: 500px;"> Abstraction-Path<br><br>
 
 	<br />
 	PDO benutzen <input type="radio" name="pdo" value="1" <?=( !$myConfig->getCreolePath() ? 'checked="checked"' : '' ) ?> style="width: inherit;">
 	Creole benutzen <input type="radio" name="pdo" value="0" <?=( $myConfig->getCreolePath() ? 'checked="checked"' : '' ) ?> style="width: inherit;"> <br/>
 	<input type="text" name="creole" value="<?=$myConfig->getCreolePath()?>" style="width: 500px;"> Creole-Path<br>
 </fieldset>
+<br />
+
 <fieldset>
 	<legend>Additionals</legend>
 	<input type="checkbox" name="reference_is_unassigned" <?=($myConfig->getReferenceIsUnassigned() == true ? 'checked="checked"' : '')?>> Referenzen für Tabellen die selbst keine besitzen. (z.B: Status))<br>
@@ -400,18 +406,30 @@ if( class_exists('PDO') AND in_array('mysql', PDO::getAvailableDrivers()) )
 	<input type="text" name="system" value="<?=$myConfig->getSystemPath()?>" style="width: 500px;"> System-Path<br>
 
 </fieldset>
+
+<br />
 <input type="submit" value="::::::::::::::::::::::: Build and save config :::::::::::::::::::::::">
 </form>
+
+<h1>Installation</h1>
+<pre>
+1. Copy "mvc" folder and rename it as your project root folder.
+2. Run ORMCompiler Setup
+</pre>
+
+<br /><br />
+<h2>Notices</h2>
 <pre>
 Many-2-Many:
-	 - Zwischentabelle muss aus Zusammengesetzten Primärschlüssel und gleicher anzahl an ForeignKeys bestehen. [Bsp: 2 IDs und 2 FKs]
-	 - ACHTUNG: unter MYSQL müssen auf den FK-Spalten auch "KEY"s liegen. "ALTER TABLE `tbl_blah` ADD INDEX ( `spalte` );"
+ - Zwischentabelle muss aus Zusammengesetzten Primärschlüssel und gleicher anzahl an ForeignKeys bestehen. [Bsp: 2 IDs und 2 FKs]
+ - ACHTUNG: unter MYSQL müssen auf den FK-Spalten auch "KEY"s liegen. "ALTER TABLE `tbl_blah` ADD INDEX ( `spalte` );"
 </pre>
 
 <pre>
 News:
-	- DAO-Objekte werden bald vollständig entfernt. Save-, Update-, Delete-Funktion werden zum AbstractionLayer hinzugefügt.
+  - DAO-Objekte werden bald vollständig entfernt. Save-, Update-, Delete-Funktion werden zum AbstractionLayer hinzugefügt.
   - Alle Timestamps werden mittels UNIX_TIMESTAMP und FROM_UNIXTIME ausgelesen/übergeben
+
 Todos:
   - m2m macht bei den querys noch probeleme - eine Tabelle die mit zwei FK auf eine Tabelle zeigt ist schwer zu joinen
   - m2m referenz die auf sich selbst zeigt .... Freundesliste - Im Moment noch nicht verfügbar. Referenz wird ignoriert. Erstmal raus mit dem scheiss - bevor ich noch durchdreh
