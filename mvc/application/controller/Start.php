@@ -10,7 +10,9 @@ class StartController extends Controller
 		$partial = $this->Layout()->show(true); // return as string
 
 		$this->Layout()->load('start/index');
-		$this->Layout()->assign('partial', $partial);
+		//$this->Layout()->assign('partial', $partial);
+		
+		$this->Layout()->assign('text', 'Hello World!');
 		$this->Layout()->show();
 	}
 

@@ -2,13 +2,14 @@
 #ä
 
 // Error-Management
-error_reporting ( E_ALL & ~E_STRICT & ~E_DEPRECATED );
+
+
 define('GLOBALCONFIG_ERROR_SHOW_REALERROR', 1); // "Darf nur auf Entwickler-VMs auf 1 stehen!"
-define('GLOBALCONFIG_ERROR_WRITE_LOGFILE', GLOBAL_DOCUMENT_ROOT . '/application/logs/'.date('Y-m-d', time()).'.log'); // "Falls Leerstring, kein Logging - ansonsten Pfad zur Logdatei"
-ini_set('display_errors', 'on'); // php errors
+define('GLOBALCONFIG_ERROR_WRITE_LOGFILE', GLOBAL_DOCUMENT_ROOT . '/application/logs/'. date('Y-m-d', time()).'.log'); // "Falls Leerstring, kein Logging - ansonsten Pfad zur Logdatei"
+
 ini_set('log_errors', 'off'); // save php erros to log file - use customer error-handler
 #ini_set('error_log', '/var/log/phperrors/[path]/'.date('Y-m-d', time()).'.log');
-set_exception_handler('exception_handler');
+#set_exception_handler('exception_handler');
 #set_error_handler('custom_error_handler');
 
 

@@ -339,8 +339,12 @@ if( !empty($_POST) ){
 	}
 	$blah = ORMBuilderLibraryClass::build($myConfig, $myDatabase);
 	if($myConfig->getIncludeSystem() == true)
-		$blah = ORMBuilderTemplateClass::build($myConfig, $myDatabase);
+		//$blah = ORMBuilderTemplateClass::build($myConfig, $myDatabase);
+		echo '<font color="red">System-Dateien sind jetzt im MVC Ordner enthalten. Funktion veraltet! </font>';
+		
 	echo '<font color="green">Alle Dateien wurden erfolgreich erstellt!</font>';
+	
+	
 	echo str_repeat(' ',256);
 	if (ob_get_length()){
     @ob_flush();

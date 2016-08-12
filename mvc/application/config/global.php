@@ -1,12 +1,20 @@
 <?
 #ä
+error_reporting ( E_ALL & ~E_STRICT & ~E_DEPRECATED );
+ini_set('display_errors', 'on'); // php errors
+
+// set zone and time
+date_default_timezone_set('Europe/Berlin');
+setlocale(LC_TIME, 'de_DE.UTF8');
 
 $DOCUMENT_ROOT = ( empty($_SERVER['DOCUMENT_ROOT']) ? '/var/www' : $_SERVER['DOCUMENT_ROOT'] );
 global $DOCUMENT_ROOT;
 
-define('GLOBAL_INCLUDE_ABSTRACTIONLAYER', $DOCUMENT_ROOT.'/application/global/[path]/');
-define('GLOBAL_INCLUDE_APPLICATIONLAYER', $DOCUMENT_ROOT.'/application/global/[path]/');
-define('GLOBAL_INCLUDE_SYSTEMLAYER', $DOCUMENT_ROOT.'/application/global/[path]/');
+define('GLOBAL_INCLUDE_ABSTRACTIONLAYER', $DOCUMENT_ROOT.'/application/global/');
+define('GLOBAL_INCLUDE_APPLICATIONLAYER', $DOCUMENT_ROOT.'/application/global/');
+define('GLOBAL_INCLUDE_SYSTEMLAYER', $DOCUMENT_ROOT.'/application/system/');
+define('CREOLE_BASEPATH', GLOBAL_INCLUDE_SYSTEMLAYER . 'Database/creole');
+ 
 
 // MVC
 define('GLOBAL_VIEWS', $DOCUMENT_ROOT.'/application/views/');

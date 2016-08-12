@@ -1,13 +1,9 @@
 <?php
 #ä
-require_once GLOBAL_DOCUMENT_ROOT . '/application/config/global.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/application/config/global.php';
+require_once GLOBAL_DOCUMENT_ROOT . '/application/config/error.php';
 require_once GLOBAL_DOCUMENT_ROOT . '/application/config/database.php';
 require_once GLOBAL_DOCUMENT_ROOT . '/application/config/email.php';
-require_once GLOBAL_DOCUMENT_ROOT . '/application/config/error.php';
-
-// set zone and time
-date_default_timezone_set('Europe/Berlin');
-setlocale(LC_TIME, 'de_DE.UTF8');
 
 // default libs
 Library::requireLibrary(LibraryKeys::SYSTEM_UTILITIES_CACHE());
@@ -32,14 +28,6 @@ WebsiteManager::initSession();
 
 // set header
 header("Content-Type: text/html; charset=utf-8");
-
-// todo: move to website manager
-function isValidEmail($email)
-{
-	$domain = substr($email, strpos($email, '@')+1);
-	$domain = gethostbyname($domain);
-	return preg_match('/^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$/', $domain);
-}
 
 // Load Translations - DEFAULT templates
 WebsiteManager::loadTranslation('_default');

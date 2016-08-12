@@ -1,0 +1,2088 @@
+###############################################
+1ee6460ac8a51f96f2097346deb80ce0 - 2016-08-11 18:08:54
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 14
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheKeys.php
+                                                )
+
+                                            [2] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheManager.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0112</td><td bgcolor='#eeeeec' align='right'>336352</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>14</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:08:54
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(14): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 14
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheKeys.php
+                                        )
+
+                                    [2] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheManager.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+5fc232f280d4a6eb0358976f27101fe2 - 2016-08-11 18:08:55
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 14
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheKeys.php
+                                                )
+
+                                            [2] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheManager.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0036</td><td bgcolor='#eeeeec' align='right'>333352</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>14</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:08:55
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Cache/class.CacheKeys.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(14): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 14
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheKeys.php
+                                        )
+
+                                    [2] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Cache/class.CacheManager.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+f726a0236f80f7b7596ede9f22d1b8d4 - 2016-08-11 18:09:44
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 17
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Utilities/class.DateManager.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0235</td><td bgcolor='#eeeeec' align='right'>631056</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>17</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:09:44
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(17): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 17
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Utilities/class.DateManager.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+f726a0236f80f7b7596ede9f22d1b8d4 - 2016-08-11 18:09:44
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 17
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Utilities/class.DateManager.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0101</td><td bgcolor='#eeeeec' align='right'>618448</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>17</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:09:44
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Utilities/class.DateManager.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(17): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 17
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Utilities/class.DateManager.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+82512ef259b9a2d7f074dd91b3a2f71e - 2016-08-11 18:11:29
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 18
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0116</td><td bgcolor='#eeeeec' align='right'>634184</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>18</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:11:29
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(18): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 18
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+82512ef259b9a2d7f074dd91b3a2f71e - 2016-08-11 18:11:29
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 18
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0105</td><td bgcolor='#eeeeec' align='right'>630440</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>18</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:11:29
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(18): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 18
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+6eeec0ac58fd0fa65181a5239594e323 - 2016-08-11 18:11:31
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 18
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237104</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0107</td><td bgcolor='#eeeeec' align='right'>630024</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>18</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:11:31
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(18): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 18
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+6eeec0ac58fd0fa65181a5239594e323 - 2016-08-11 18:11:31
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 22
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 18
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0065</td><td bgcolor='#eeeeec' align='right'>630440</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>18</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:11:31
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Database/DAO/class.BaseDAO.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 22
+
+Trace: 
+#0 /var/www/mvc/index.php(18): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 18
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Database/DAO/class.BaseDAO.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+e1711d99bb984a8a40ec1cfd49c0c199 - 2016-08-11 18:13:31
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0285</td><td bgcolor='#eeeeec' align='right'>480424</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:13:31
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+e1711d99bb984a8a40ec1cfd49c0c199 - 2016-08-11 18:13:31
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0015</td><td bgcolor='#eeeeec' align='right'>471176</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:13:31
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+b9cc88a2af16eb956dad5cd71c8304ef - 2016-08-11 18:15:00
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0031</td><td bgcolor='#eeeeec' align='right'>473416</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:00
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+02546d80ae59e16fa83a705db57e1f86 - 2016-08-11 18:15:01
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0021</td><td bgcolor='#eeeeec' align='right'>473728</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:01
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+061c703338d0d73839b8e6efcc4ac683 - 2016-08-11 18:15:18
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0048</td><td bgcolor='#eeeeec' align='right'>473416</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:18
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+061c703338d0d73839b8e6efcc4ac683 - 2016-08-11 18:15:18
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0048</td><td bgcolor='#eeeeec' align='right'>473720</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:18
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+78a94fd7696b3f3a77c2b62de4630825 - 2016-08-11 18:15:39
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237136</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0034</td><td bgcolor='#eeeeec' align='right'>473768</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:39
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+78a94fd7696b3f3a77c2b62de4630825 - 2016-08-11 18:15:39
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 20
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>237512</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0046</td><td bgcolor='#eeeeec' align='right'>473424</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>20</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:15:39
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/system/Controller/class.Controller.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/index.php(20): Library::requireLibrary(Object(LibraryKeyList))
+#1 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 20
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/system/Controller/class.Controller.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+513d2a29688804fb363d1545a4c1f3ae - 2016-08-11 18:17:41
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+                    [line] => 1509
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBase.php
+                                                )
+
+                                            [2] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayAbstractionLayer.php
+                                                )
+
+                                            [3] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.Gameday.php
+                                                )
+
+                                            [4] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayList.php
+                                                )
+
+                                            [5] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBaseManager.php
+                                                )
+
+                                            [6] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayManager.php
+                                                )
+
+                                            [7] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayQuery.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+                    [line] => 1357
+                    [function] => getGamedayToday
+                    [class] => WebsiteManager
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 32
+                    [function] => initSession
+                    [class] => WebsiteManager
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>238352</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0185</td><td bgcolor='#eeeeec' align='right'>884960</td><td bgcolor='#eeeeec'>WebsiteManager::initSession(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>32</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0187</td><td bgcolor='#eeeeec' align='right'>896152</td><td bgcolor='#eeeeec'>WebsiteManager::getGamedayToday(  )</td><td title='/var/www/mvc/application/system/Website/class.WebsiteManager.php' bgcolor='#eeeeec'>.../class.WebsiteManager.php<b>:</b>1357</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0189</td><td bgcolor='#eeeeec' align='right'>900232</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/application/system/Website/class.WebsiteManager.php' bgcolor='#eeeeec'>.../class.WebsiteManager.php<b>:</b>1509</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:17:41
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/application/system/Website/class.WebsiteManager.php(1509): Library::requireLibrary(Object(LibraryKeyList))
+#1 /var/www/mvc/application/system/Website/class.WebsiteManager.php(1357): WebsiteManager::getGamedayToday()
+#2 /var/www/mvc/index.php(32): WebsiteManager::initSession()
+#3 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+            [line] => 1509
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBase.php
+                                        )
+
+                                    [2] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayAbstractionLayer.php
+                                        )
+
+                                    [3] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.Gameday.php
+                                        )
+
+                                    [4] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayList.php
+                                        )
+
+                                    [5] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBaseManager.php
+                                        )
+
+                                    [6] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayManager.php
+                                        )
+
+                                    [7] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayQuery.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+            [line] => 1357
+            [function] => getGamedayToday
+            [class] => WebsiteManager
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 32
+            [function] => initSession
+            [class] => WebsiteManager
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+)
+
+###############################################
+###############################################
+513d2a29688804fb363d1545a4c1f3ae - 2016-08-11 18:17:41
+###############################################
+ (mvc.intra.bueroparallel.de)	PARAMETER: 	IP: 188.193.57.144	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+
+ExceptionObject Object
+(
+    [layer:ExceptionObject:private] => applicationlayer
+    [type:ExceptionObject:private] => error
+    [message:protected] => Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php]
+    [string:Exception:private] => 
+    [code:protected] => 444
+    [file:protected] => /var/www/mvc/application/system/Library/class.Library.php
+    [line:protected] => 25
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+                    [line] => 1509
+                    [function] => requireLibrary
+                    [class] => Library
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => LibraryKeyList Object
+                                (
+                                    [pos] => 1
+                                    [list] => Array
+                                        (
+                                            [0] => 
+                                            [1] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBase.php
+                                                )
+
+                                            [2] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayAbstractionLayer.php
+                                                )
+
+                                            [3] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.Gameday.php
+                                                )
+
+                                            [4] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayList.php
+                                                )
+
+                                            [5] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBaseManager.php
+                                                )
+
+                                            [6] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayManager.php
+                                                )
+
+                                            [7] => LibraryKeyObject Object
+                                                (
+                                                    [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayQuery.php
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+                    [line] => 1357
+                    [function] => getGamedayToday
+                    [class] => WebsiteManager
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/mvc/index.php
+                    [line] => 32
+                    [function] => initSession
+                    [class] => WebsiteManager
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> ExceptionObject: Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php] in /var/www/mvc/application/system/Library/class.Library.php on line <i>25</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>238984</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0057</td><td bgcolor='#eeeeec' align='right'>880536</td><td bgcolor='#eeeeec'>WebsiteManager::initSession(  )</td><td title='/var/www/mvc/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>32</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0058</td><td bgcolor='#eeeeec' align='right'>892544</td><td bgcolor='#eeeeec'>WebsiteManager::getGamedayToday(  )</td><td title='/var/www/mvc/application/system/Website/class.WebsiteManager.php' bgcolor='#eeeeec'>.../class.WebsiteManager.php<b>:</b>1357</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0059</td><td bgcolor='#eeeeec' align='right'>896624</td><td bgcolor='#eeeeec'>Library::requireLibrary(  )</td><td title='/var/www/mvc/application/system/Website/class.WebsiteManager.php' bgcolor='#eeeeec'>.../class.WebsiteManager.php<b>:</b>1509</td></tr>
+
+)
+Aborted the transaction because: 
+
+Time: 2016-08-11 18:17:41
+Code: 444
+
+Message: Die Datei wurde nicht gefunden: [/var/www/mvc/application/global/Gameday/class.GamedayBase.php]
+
+File: /var/www/mvc/application/system/Library/class.Library.php
+
+Line: 25
+
+Trace: 
+#0 /var/www/mvc/application/system/Website/class.WebsiteManager.php(1509): Library::requireLibrary(Object(LibraryKeyList))
+#1 /var/www/mvc/application/system/Website/class.WebsiteManager.php(1357): WebsiteManager::getGamedayToday()
+#2 /var/www/mvc/index.php(32): WebsiteManager::initSession()
+#3 {main}
+
+Trace: Array
+(
+    [0] => Array
+        (
+            [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+            [line] => 1509
+            [function] => requireLibrary
+            [class] => Library
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => LibraryKeyList Object
+                        (
+                            [pos] => 1
+                            [list] => Array
+                                (
+                                    [0] => 
+                                    [1] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBase.php
+                                        )
+
+                                    [2] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayAbstractionLayer.php
+                                        )
+
+                                    [3] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.Gameday.php
+                                        )
+
+                                    [4] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayList.php
+                                        )
+
+                                    [5] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayBaseManager.php
+                                        )
+
+                                    [6] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayManager.php
+                                        )
+
+                                    [7] => LibraryKeyObject Object
+                                        (
+                                            [path:LibraryKeyObject:private] => /var/www/mvc/application/global/Gameday/class.GamedayQuery.php
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /var/www/mvc/application/system/Website/class.WebsiteManager.php
+            [line] => 1357
+            [function] => getGamedayToday
+            [class] => WebsiteManager
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /var/www/mvc/index.php
+            [line] => 32
+            [function] => initSession
+            [class] => WebsiteManager
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+)
+
+###############################################
